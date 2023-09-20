@@ -29,7 +29,7 @@ function showContent(products) {
                   <div class="bottom-box">
                     <p class="readmore">More information</p></div>
                     <div class="description-box" onclick="showDescription()">${products[i].description}</div>
-                    <div class="category-box">${products[i].category}</div>
+                    <div class="category-box">Category: ${products[i].category}</div>
                 </div>
           `;
   }

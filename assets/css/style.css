@@ -98,6 +98,7 @@ header {
     overflow-y: scroll;
 }
 
+
 span.price {
     position: absolute;
     margin-left: 5px;
@@ -285,9 +286,14 @@ img.companylogo {
 }
 
 .description-box {
-    margin-top: 75px;
-    text-align: center;
-    font-size: 11px;
+    margin: 6rem 1rem 0 1rem;
+    font-size: 13px;
+}
+
+.category-box {
+    color: rgb(75, 75, 75);
+    margin: 1rem 1rem 1rem 0;
+    text-align: right;
 }
 
 p.readmore {
